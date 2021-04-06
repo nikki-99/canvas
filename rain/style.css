@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas{
+    background-image: url(dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* opacity: 0; */
+}
+/* .rain{
+    animation: lightening 4s linear infinite;
+    animation-delay: 5s;
+} */
+@keyframes lightening{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    11%{
+        opacity: 1;
+    }
+    14%{
+        opacity: 0;
+
+    }
+    20%{
+        opacity: 0;
+    }
+    21%{
+        opacity: 1;
+    }
+    24%{
+        opacity: 0;
+    }
+    
+    104%{
+        opacity: 0;
+    }
+}
