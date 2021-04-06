@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pen{
+    margin-left: 25%;
+    /* background: darkgreen; */
+    /* margin-right: 2%; */
+    /* background: blue; */
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+.thin{
+    width: 5vh;
+    height: 5vh;
+    border-bottom: 1px solid black;
+    
+    /* cursor: pointer; */
+    margin: 0% 5%;
+  
+    color: crimson;
+    
+}
+.thick{
+    width: 5vh;
+    height: 5vh;
+    
+    border-bottom: 3px solid black;
+    /* cursor: pointer; */
+    margin: 0% 5%;
+    color: chartreuse;
+   
+}
+.big{
+    width: 5vh;
+    height: 5vh;
+    
+    border-bottom: 10px solid black;
+    /* cursor: pointer; */
+    margin: 0% 5%;
+    color: blue;
+
+}
+.erasor{
+    color: rgb(61, 61, 61);
+    margin-top: 1%;
+    margin-left: 0.4%;
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 1rem;
+    text-shadow: 2px 2px 8px gray;
+    font-family: 'Quicksand', sans-serif;
+}
+
+canvas{
+    margin-left: 1.5rem;
+    margin-right: 0.8rem;
+    width: 97%;
+    height: 80vh;
+    border: 2px solid black;
+    cursor: none;
+    box-shadow: 2px 2px 30px gray;
+    
+    /* pointer-events: none; */
+   
+    
+}
+.color{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.yellow{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: yellow;
+    /* cursor: pointer; */
+
+}
+
+.orange{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: orange;
+    /* cursor: pointer; */
+
+}
+.pink{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: pink;
+    /* cursor: pointer; */
+
+}
+.red{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: red;
+    /* cursor: pointer; */
+}
+
+.blue{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: blue;
+    /* cursor: pointer; */
+}
+.green{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: green;
+    /* cursor: pointer; */
+}
+
+.black{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: black;
+    /* cursor: pointer; */
+
+}
+
+.clear{
+    width: 8vh;
+    height: 8vh;
+    border: 1px black;
+    border-radius: 50%;
+    background: gray;
+    /* cursor: pointer; */
+   
+    
+
+}
+h3{
+    text-align: center;
+    margin-top: 1rem;
+    
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.cursor img{
+    position: absolute;
+    z-index: 100;
+    height: 20px;
+    width: auto;
+    pointer-events: none;
+
+}
